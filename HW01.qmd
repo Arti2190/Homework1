@@ -1,0 +1,70 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+# Write text to answer the question:
+
+## 1. What do you think being a data scientist is about?
+
+A data scientist is an analytics professional who is responsible for collecting, analyzing, and interpreting data to help drive decision  making in an organization. Data Scientist do many tasks like to find the pattern and trends in dataset to uncover insights.
+
+## 2. **What differences/similarities do you see between data scientists and statisticians?**
+
+**Data scientist** organize, extract and analyze data with the goal of addressing specific problems or answering questions. They focus on creating systems that perform these analyses and produce useful results whereas statisticians is using mathematical and statistical models to analyze data. 
+
+**Similarity** Both collect the information and use it to perform the analysis.
+
+## 3. **How do you view yourself in relation to these two areas?**
+
+As a data scientist I can analyze the data, extract insights and provide the actionable information. For this first of all I will perform EDA, then build model and at last predict the model. And if I know the statistics then I can apply many statistical concepts like hypothesis testing, probability etc for making good decision.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+# R code
+
+The Iris dataset:- comprises measurements of iris flowers from three different species: **Setosa, Versicolor, and Virginica**. Each sample consists of four features: sepal length, sepal width, petal length, and petal width. Additionally, each sample is labeled with its corresponding species.
+
+```{r}
+# Get a vector of values from iris dataset
+y <- density(iris$Petal.Width)
+```
+
+You can add options to executable code like this
+
+## Create R code chunk to determine the class, type, and structure of the object y
+
+```{r}
+# Define the class of y object
+class(y)
+# show the type of class y
+typeof(y)
+# show the structure of class y
+structure(y)
+
+```
+
+## Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false
+
+```{r}
+#| echo: false
+plot(y, main="Density Plot of Petal Width")
+
+#hist(iris$Petal.Width)
+```
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
