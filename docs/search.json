@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "HW01.html",
+    "href": "HW01.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "HW01.html#quarto",
+    "href": "HW01.html#quarto",
+    "title": "Data Science",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "HW01.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "HW01.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "Data Science",
+    "section": "1. What do you think being a data scientist is about?",
+    "text": "1. What do you think being a data scientist is about?\nA data scientist is an analytics professional who is responsible for collecting, analyzing, and interpreting data to help drive decision  making in an organization. Data Scientist do many tasks like to find the pattern and trends in dataset to uncover insights."
+  },
+  {
+    "objectID": "HW01.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "HW01.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "Data Science",
+    "section": "2. What differences/similarities do you see between data scientists and statisticians?",
+    "text": "2. What differences/similarities do you see between data scientists and statisticians?\nData scientist organize, extract and analyze data with the goal of addressing specific problems or answering questions. They focus on creating systems that perform these analyses and produce useful results whereas statisticians is using mathematical and statistical models to analyze data. \nSimilarity Both collect the information and use it to perform the analysis."
+  },
+  {
+    "objectID": "HW01.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "HW01.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "Data Science",
+    "section": "3. How do you view yourself in relation to these two areas?",
+    "text": "3. How do you view yourself in relation to these two areas?\nAs a data scientist I can analyze the data, extract insights and provide the actionable information. For this first of all I will perform EDA, then build model and at last predict the model. And if I know the statistics then I can apply many statistical concepts like hypothesis testing, probability etc for making good decision."
+  },
+  {
+    "objectID": "HW01.html#running-code",
+    "href": "HW01.html#running-code",
+    "title": "Data Science",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "HW01.html#create-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y",
+    "href": "HW01.html#create-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y",
+    "title": "Data Science",
+    "section": "Create R code chunk to determine the class, type, and structure of the object y",
+    "text": "Create R code chunk to determine the class, type, and structure of the object y\n\n# Define the class of y object\nclass(y)\n\n[1] \"density\"\n\n# show the type of class y\ntypeof(y)\n\n[1] \"list\"\n\n# show the structure of class y\nstructure(y)\n\n\nCall:\n    density.default(x = iris$Petal.Width)\n\nData: iris$Petal.Width (150 obs.);  Bandwidth 'bw' = 0.2518\n\n       x                 y            \n Min.   :-0.6555   Min.   :0.0005219  \n 1st Qu.: 0.3222   1st Qu.:0.0830968  \n Median : 1.3000   Median :0.2650517  \n Mean   : 1.3000   Mean   :0.2551522  \n 3rd Qu.: 2.2778   3rd Qu.:0.4190136  \n Max.   : 3.2555   Max.   :0.4975026"
+  },
+  {
+    "objectID": "HW01.html#create-an-r-code-chunk-that-uses-the-plot-function-on-y.-hide-the-r-code-in-the-final-document-by-setting-echo-to-false",
+    "href": "HW01.html#create-an-r-code-chunk-that-uses-the-plot-function-on-y.-hide-the-r-code-in-the-final-document-by-setting-echo-to-false",
+    "title": "Data Science",
+    "section": "Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false",
+    "text": "Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false\n\n\n\n\n\n\n\n\n\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  }
+]
